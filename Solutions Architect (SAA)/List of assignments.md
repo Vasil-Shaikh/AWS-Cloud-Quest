@@ -44,9 +44,9 @@ Assignments include:
    - Deploy a container based application using AWS Fargate
  
 - Single Page App
- - Publish a single page app using S3
- - Troubleshoot the Rest API deployed via Amazon API Gateway
- - Check the application flow from the front-end app to DynamoDB
+  - Publish a single page app using S3
+  - Troubleshoot the Rest API deployed via Amazon API Gateway
+  - Check the application flow from the front-end app to DynamoDB
 
 
 P.S: You do not have to write code on your own. Sample code is provided along with labs, you will have to modify it as per the task.
