@@ -1,0 +1,23 @@
+description: |-
+  *Use this SSM automation document to remediate ec2 instance that have not been properly tagged.*  
+
+  ---
+  # How does it work?
+  This SSM automation doc will invoke the lambda function labFunction that will add tags to instances.
+  The lambda function will tag any non-compliant EC2 resources with the Environment:Prod key value pair
+  ## Pre-requisites
+  1. Make sure to replace <account-id> with the actual account id of your provisioned lab account.
+ 
+
+  You can create a [link to another webpage](https://aws.amazon.com/).
+schemaVersion: '0.3'
+parameters:
+  instanceId:
+    type: 'AWS::EC2::Instance::Id'
+mainSteps:
+  - name: updatetags
+    action: 'aws:invokeLambdaFunction'
+    inputs:
+      InvocationType: Event
+      Payload: '"{{instanceId}}"'
+      FunctionName: 'arn:aws:lambda:us-east-1:<account-id>:function:labFunction'
