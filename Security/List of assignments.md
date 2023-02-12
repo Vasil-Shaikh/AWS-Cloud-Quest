@@ -30,7 +30,7 @@ List of assignments:
   - Ceate an Amazon cloudwatch alarm and SNStopic
   - Configure an SNS Topic to trigger an AWS Lambda function
  
- - Application Logs
+- Application Logs
   - Concept: In this lab you will: 
    Configure the Amazon kinesis Agent to send access log data to an Amazon Kinesis Data Firehose Delivery stream configured with an Amazon S3 bucket destination.
    Use AWS Glue to create an AWS Glue crawler to crawl the loss from S3 and generate a data schema. Use Amazon Athena to query and analyse the log data
