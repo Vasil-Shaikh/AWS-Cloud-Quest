@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Application Logs</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+    <!-- CUSTOM STYLE CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link href="2048/style/main.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" href="2048/meta/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="2048/meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+    <link rel="apple-touch-startup-image" href="2048/meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  
+</head>
+
+<body>
+
+    <!--Header section  -->
+    <div class="container" id="home">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="head-main"> <i class="fab fa-aws fa-2x"></i></h1>
+            </div>
+        </div>
+    </div>
+    <!--End Header section  -->
+
+    <!--Game Section-->
+    <section class=" color-light">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h2>Play Radius</h2>
+    
+              <iframe id="inlineFrameExample" title="Inline Frame Example" width="825" height="625"
+                src="radius/index.html"></iframe>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--End Game Section-->
+
+    <!--footer Section -->
+    <div class="for-full-back " id="footer">
+        CSS Template from <a href="https://www.free-css.com/free-css-templates/page203/image-less">Free CSS</a>
+    </div>
+    <!--End footer Section -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="script.js"></script>
+
+
+    <script src="2048/js/bind_polyfill.js"></script>
+    <script src="2048/js/classlist_polyfill.js"></script>
+    <script src="2048/js/animframe_polyfill.js"></script>
+    <script src="2048/js/keyboard_input_manager.js"></script>
+    <script src="2048/js/html_actuator.js"></script>
+    <script src="2048/js/grid.js"></script>
+    <script src="2048/js/tile.js"></script>
+    <script src="2048/js/local_storage_manager.js"></script>
+    <script src="2048/js/game_manager.js"></script>
+    <script src="2048/js/application.js"></script>
+</body>
+
+</html>
