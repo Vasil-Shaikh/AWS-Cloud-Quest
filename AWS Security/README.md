@@ -38,7 +38,7 @@ List of assignments:
 - **Application Logs**
    Concept: In this lab you will: 
   - Configure the Amazon kinesis Agent to send access log data to an Amazon Kinesis Data Firehose Delivery stream configured with an Amazon S3 bucket destination.
-  - Use AWS Glue to create an AWS Glue crawler to crawl the loss from S3 and generate a data schema. Use Amazon Athena to query and analyse the log data
+  - Use AWS Glue to create an AWS Glue crawler to crawl the logs from S3 and generate a data schema. Use Amazon Athena to query and analyse the log data
   - Configure the Amazon kinesis agent on an Amazon EC2 instance
   - Create an AWS glue crawler to generate a data schema
   - Amazon Athena to query an analyse the log data
